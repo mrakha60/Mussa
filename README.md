@@ -1,2 +1,3 @@
 # Mussa
-Mussa is Indonesian Song heritage, its a school project that using other's idea and code
+Musik bangsa, projek kelompok untuk matakuliah IMK
+Projek ini masih banyak copas dan codingan yang boros
