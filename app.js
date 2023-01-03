@@ -76,6 +76,33 @@ nasionalToMusicPlayer.addEventListener('click', () => {
     listnasional.classList.remove('active');
 })
 
+//// Access playlist Hits
+const listhits = document.querySelector('.hits');
+const hits_img = document.querySelector('.playlist-card-img-hits');
+
+hits_img.addEventListener('click', () => {
+    listhits.classList.add('active');
+})
+
+const hitsToMusicPlayer = document.querySelector('.hits .back-btn');
+
+hitsToMusicPlayer.addEventListener('click', () => {
+    listhits.classList.remove('active');
+})
+
+//// Access playlist Madefy
+const listmadefy = document.querySelector('.madefy');
+const madefy_img = document.querySelector('.playlist-card-img-madefy');
+
+madefy_img.addEventListener('click', () => {
+    listmadefy.classList.add('active');
+})
+
+const madefyToMusicPlayer = document.querySelector('.madefy .back-btn');
+
+madefyToMusicPlayer.addEventListener('click', () => {
+    listmadefy.classList.remove('active');
+})
 
 //////// access playlist
 
@@ -114,6 +141,7 @@ const currentMusicTime = document.querySelector('.current-time');
 const musicDuration = document.querySelector('.duration');
 
 const queue = [...document.querySelectorAll('.queue')];
+const qnasional = [...document.querySelectorAll('.qnasional')]
 
 // select all buttons here
 const forwardBtn = document.querySelector('i.fa-forward');
@@ -235,9 +263,14 @@ volumeSlider.addEventListener('input', () => {
 ///Membuat queue playlist berjalan
 queue.forEach((item, i) => {
     item.addEventListener('click', () => {
-        setMusic(i+12);
+        setMusic(i);
         playBtn.click();
     })
 })
 
-///Membuat queue playlist berjalan
+qnasional.forEach((item, i) => {
+    item.addEventListener('click',() => {
+        setMusic(i +12);
+        playBtn.click();
+    })
+})

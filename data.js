@@ -70,54 +70,57 @@ let songs = [
         path: 'assets/musics/Manise Manise.mp3',
         artist: 'Maluku Tiger',
         cover: 'assets/images/cover 1.png'
-    },
-    {
+    }, 
+
+    ///////// urutan ke 13 (i+12) ///// START LAGU NASIONAL
+
+    {   
         name: 'Indonesia raya',
         path: 'assets/musics/indoraya.mp3',
         artist: 'WR Supratman',
-        cover: 'assets/images/cover 1.png'
+        cover: 'assets/images/nasional.png'
     },
     {
-        name: 'song 2',
-        path: 'assets/musics/Song 2.mp3',
-        artist: 'artist 2',
-        cover: 'assets/images/cover 2.png'
+        name: 'Hari Merdeka',
+        path: 'assets/musics/indoraya.mp3',
+        artist: 'WR Supratman',
+        cover: 'assets/images/nasional.png'
     },
     {
-        name: 'song 3',
-        path: 'assets/musics/Song 3.mp3',
-        artist: 'artist 3',
-        cover: 'assets/images/cover 3.png'
+        name: 'Garuda Pancasila',
+        path: 'assets/musics/indoraya.mp3',
+        artist: 'WR Supratman',
+        cover: 'assets/images/nasional.png'
     },
     {
-        name: 'song 4',
-        path: 'assets/musics/Song 4.mp3',
-        artist: 'artist 4',
-        cover: 'assets/images/cover 4.png'
+        name: 'Berkibarlah Benderaku',
+        path: 'assets/musics/indoraya.mp3',
+        artist: 'WR Supratman',
+        cover: 'assets/images/nasional.png'
     },
     {
-        name: 'song 5',
-        path: 'assets/musics/Song 5.mp3',
-        artist: 'artist 5',
-        cover: 'assets/images/cover 5.png'
+        name: 'Bagimu Negeri',
+        path: 'assets/musics/indoraya.mp3',
+        artist: 'WR Supratman',
+        cover: 'assets/images/nasional.png'
     },
     {
-        name: 'song 6',
-        path: 'assets/musics/Song 6.mp3',
-        artist: 'artist 6',
-        cover: 'assets/images/cover 6.png'
+        name: 'Gugur Bunga',
+        path: 'assets/musics/indoraya.mp3',
+        artist: 'WR Supratman',
+        cover: 'assets/images/nasional.png'
     },
     {
-        name: 'song 7',
-        path: 'assets/musics/Song 7.mp3',
-        artist: 'artist 7',
-        cover: 'assets/images/cover 7.png'
+        name: 'Indonesia Pusaka',
+        path: 'assets/musics/indoraya.mp3',
+        artist: 'WR Supratman',
+        cover: 'assets/images/nasional.png'
     },
     {
-        name: 'song 8',
-        path: 'assets/musics/Song 8.mp3',
-        artist: 'artist 8',
-        cover: 'assets/images/cover 8.png'
+        name: 'Ibu Pertiwi',
+        path: 'assets/musics/indoraya.mp3',
+        artist: 'WR Supratman',
+        cover: 'assets/images/nasional.png'
     },
-    
 ]
+

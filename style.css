@@ -1,3 +1,4 @@
+/* Import Font Roboto*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 
@@ -119,6 +120,18 @@ body{
     border-radius: 20px;
 }
 
+.playlist-card-img-hits{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.playlist-card-img-madefy{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
 
 .playlist-card-img{
     width: 100%;
@@ -369,6 +382,28 @@ body{
 .Nasional.active{
     right: 0;
 }
+
+/* Playlist hits */
+.hits{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    padding: 30px 0;
+    background: black;
+    z-index: 3;
+    transition: 1s;
+    overflow: auto;
+    display: block;
+}
+
+.hits.active{
+    right: 0;
+}
+
+/* Playlist made for you */
+
 
 /* playlist section */
 
